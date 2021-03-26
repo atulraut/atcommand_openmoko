@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=AT My Command
+Comment=AT Test Suite
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Exec=atmycommand
+Icon=atmycommand
+Terminal=true
+Categories=GTK;Application
+SingleInstance=true
+StartupNotify=true

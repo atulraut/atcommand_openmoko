@@ -1,0 +1,22 @@
+README
+======
+
+"AT My Command" is an AT Test Suite application that end-users can use
+to test AT commands with a front-end. It is to help core developers
+get feedback on AT commands on different operators, and regions.
+
+The project website is at:
+https://projects.openmoko.org/projects/atmycommand/
+
+It is used to test AT commands on the Neo1973 phone. Uses libgsmd API.
+
+It will take sometime to load the application as it restarts
+gsmd. Sometimes it fails to load due to segfault in
+lgsm_passthrough(). Just re-run the application to test it.
+
+All logs are present in /var/log/atmycommand. Log names are based on date and time.
+
+Feedback welcome!
+
+--
+Atul Raut <rauji.raut@gmail.com>
